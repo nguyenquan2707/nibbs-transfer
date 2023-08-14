@@ -8,15 +8,17 @@ localhost:8080/rest/service
 
 ## Accept and Process Transfer
 /transfer
+http://localhost:5000/rest/service/transfer
 #### Request Body
 `{
 "sourceUserId":"350315e9-d90f-43f0-8226-5e5de0cced3f",
-"destinationUserId": "ef78b37f-f62d-41fe-8f94-cc31683a3de1",
+"destinationUserId": "15cb3a86-2d1d-49ab-94cb-9d1d5be5ba54",
 "amount":10000
 }`
 
 ##Get list of transactions with optional parameters: status, userId, date range
 /transactions
+http://localhost:5000/rest/service/transactions
 #### Optional Parameters
 status
 userid
